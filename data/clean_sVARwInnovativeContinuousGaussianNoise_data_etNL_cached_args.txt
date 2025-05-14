@@ -1,0 +1,5 @@
+{
+    "data_root_path": "/datasets/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL", 
+    "args_save_path": "/redcliff-s-hypothesizing-dynamic-causal-graphs/data/sVARwInnovativeContinuousGaussianNoise_data_etNL_cached_data_args", 
+    "num_folds_in_each_cv": "5"
+}

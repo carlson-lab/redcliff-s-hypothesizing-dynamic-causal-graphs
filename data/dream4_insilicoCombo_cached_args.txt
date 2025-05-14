@@ -1,0 +1,4 @@
+{
+   "orig_data_path": "/datasets/dream4/preprocessed/size10_individual_noStateLabels", 
+   "data_save_path": "/datasets/dream4_insilicoCombo"
+}

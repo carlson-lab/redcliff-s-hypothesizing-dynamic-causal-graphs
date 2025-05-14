@@ -1,0 +1,4 @@
+{
+   "orig_data_path": "/datasets/dream4/original_format", 
+   "data_save_path": "/datasets/dream4/preprocessed/"
+}

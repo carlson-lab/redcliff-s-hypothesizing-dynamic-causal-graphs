@@ -1,0 +1,3 @@
+{
+    "data_save_path": "/datasets/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL"
+}

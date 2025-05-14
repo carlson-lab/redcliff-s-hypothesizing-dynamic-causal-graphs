@@ -1,0 +1,4 @@
+{
+    "data_save_path": "/datasets/aggregate_synthetic_systems_datasets", 
+    "orig_data_root_path": "/datasets/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL"
+}

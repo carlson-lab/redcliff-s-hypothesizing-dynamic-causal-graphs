@@ -1,0 +1,19 @@
+{
+    "original_lfp_data_path": "/SocialPreference/original_data/LFPs", 
+    "original_behavioral_label_data_path": "/SocialPreference/original_data/ClassData",
+    "save_path": "/datasets/socialPreference_100HzLP",
+    "num_processed_samples": "10000",
+    "sample_temp_window_size": "1500",
+    "max_num_samps_per_preprocessed_file": "100",
+    "sample_freq": "1000", 
+    "post_processing_sample_freq": "100", 
+    "max_num_samp_attempts": "10", 
+    "cutoff": "35.0", 
+    "lowcut": "None", 
+    "highcut": "None", 
+    "mad_threshold": "15.0", 
+    "q": "2.0", 
+    "order": "3", 
+    "apply_notch_filters": "True", 
+    "filter_type": "lowpass"
+}
