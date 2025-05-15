@@ -1,0 +1,4 @@
+{
+    "save_root_path": "/eval_results/plotCrossExpSummaries_eval_sysOptF1_crossAlg_synSysIG1030_bSCgsParsim_REDCSmo_mi300", 
+    "eval_files_root_path": "/eval_results/eval_sysOptF1_crossAlg_synSysInnovGauss1030_bSCgsParsim_REDCSmo_mi300"
+}

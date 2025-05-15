@@ -1,0 +1,8 @@
+{
+    "save_root_path": "/eval_results/eval_sysOptF1_crossAlg_synSysInnovGauss1030_bSCgsParsim_REDCSmo_mi300", 
+    "REDCLIFF_S_CMLP_trained_models_root_dir": "/train_results/REDCLIFF_S_CMLP_synSysInnovGauss1030_BSCgsSmooth3Parsim", 
+    "cLSTM_trained_models_root_dir": "/train_results/CLSTM_synSysInnovGauss1030_BLgs2_v1226_mi300", 
+    "cMLP_trained_models_root_dir": "/train_results/CMLP_synSysInnovGauss1030_BLgs2Parsim_v0114_mi300", 
+    "DCSFA_trained_models_root_dir": "/train_results/DCSFANMF_synSysInnovGauss1030_BOBPgs2Parsim", 
+    "DGCNN_trained_models_root_dir": "/train_results/DGCNN_synSysInnovGauss1030_BLgs2_v1226_mi300"
+}

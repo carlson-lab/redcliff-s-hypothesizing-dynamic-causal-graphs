@@ -1,0 +1,4 @@
+{
+    "trained_models_root_path": "/train_results/REDCLIFF_S_CMLP_SocPref100hz0326AvgReg_gsSmo1_tstParamsBSCgsSmo1_dataFULL",
+    "save_root_path": "/eval_results/eval_gs_REDCLIFF_S_CMLP_SocPref100hz0326AvgReg_gsSmo1_tstParamsBSCgsSmo1_dataFULL"
+}

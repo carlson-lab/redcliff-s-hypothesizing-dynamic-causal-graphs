@@ -1,0 +1,4 @@
+{
+    "save_root_path": "/eval_results/summ_offDiagF1_eval_sysOptF1_crossAlg_synSysIG1030_bSCgsParsim_REDCSmo_mi300", 
+    "orig_eval_root_path": "/eval_results/eval_sysOptF1_crossAlg_synSysInnovGauss1030_bSCgsParsim_REDCSmo_mi300"
+}

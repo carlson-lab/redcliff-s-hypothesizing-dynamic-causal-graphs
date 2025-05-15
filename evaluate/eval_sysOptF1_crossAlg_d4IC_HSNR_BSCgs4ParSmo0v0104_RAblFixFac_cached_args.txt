@@ -1,0 +1,11 @@
+{
+    "save_root_path": "/eval_results/eval_sysOptF1_crossAlg_d4IC_HSNR_BSCgs4ParSmo0v0104_RAblFixFac", 
+    "REDCLIFF_S_CMLP_trained_models_root_dir": "/train_results/REDCLIFF_S_CMLP_Smooth_d4IC_BSCgs4ParSmo0_v0104_RespAblateFixFac", 
+    "cLSTM_trained_models_root_dir": "/train_results/CLSTM_d4IC_BLgs1Parsim", 
+    "cMLP_trained_models_root_dir": "/train_results/CMLP_d4IC_BLgs1", 
+    "DGCNN_trained_models_root_dir": "/train_results/DGCNN_d4IC_BLgs1Parsim", 
+    "NAVAR_CMLP_trained_models_root_dir": "/train_results/NAVAR_CMLP_d4IC_BCTVgs1Parsim", 
+    "NAVAR_CLSTM_trained_models_root_dir": "/train_results/NAVAR_CLSTM_d4IC_BCTVgs1Parsim", 
+    "DYNOTEARS_Vanilla_trained_models_root_dir": "/train_results/DYNOTEARS_Vanilla_d4IC_BCNIBCHVgs1Parsim", 
+    "DCSFA_trained_models_root_dir": "/train_results/DCSFANMF_d4IC_OBPgs1"
+}
