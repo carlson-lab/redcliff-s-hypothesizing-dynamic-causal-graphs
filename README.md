@@ -1,7 +1,9 @@
 # redcliff-s-hypothesizing-dynamic-causal-graphs
 Code corresponding to ICML 2025 paper "Generating Hypotheses of Dynamic Causal Graphs in Neuroscience: Leveraging Generative Factor Models of Observed Time Series"
 
-Cite: [1] (TO-DO: Update Information)
+Citations: 
+ - [1] O.G. REDCLIFF-S PAPER (TO-DO: Update Information)
+ - [2] TIDYBENCH (TO-DO: Update Information)
 
 **_Contents Overview:_**
  - Repository Overview: describes the contents and naming convention(s) of the repository
@@ -13,8 +15,16 @@ Cite: [1] (TO-DO: Update Information)
 ---
 ## Repository Overview
 
+**_Modules_**:
+ - data: contains scripts, functions, and class definitions for handling data used in [1]
+ - evaluate: contains scripts and functions used to obtain results reported in [1]
+ - models: contains class definitions for each algorithm/method used in [1]
+ - general_utils: contains general purpose functions used to support modules in the repo
+ - tidybench: a locally adapted copy of the original tidybench repository [2]
+ - train: contains scripts for training algorithms/baselines described in [1]
+
+
 Repository Structure:
- - Modules: (TO-DO: Update Information)
  - Naming Convention(s): (TO-DO: Update Information)
 
 ---
