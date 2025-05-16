@@ -1,14 +1,17 @@
 # redcliff-s-hypothesizing-dynamic-causal-graphs
 Code corresponding to ICML 2025 paper "Generating Hypotheses of Dynamic Causal Graphs in Neuroscience: Leveraging Generative Factor Models of Observed Time Series"
 
-README Contents Overview: (TO-DO: Update Information)
+Cite: [1] (TO-DO: Update Information)
+
+'''Contents Overview:'''
+ - Repository Overview: describes the contents and naming convention(s) of the repository
+ - Environment Setup: describes how to install dependencies and set up a local system to use the repo
+ - Dataset Curration and Preparation: describes how to prepare the data used for experiments in [1]
+ - Model Training: describes how to train models used in [1]
+ - Evaluation and Results Analysis: describes how to analyze results and reconstruct findings reported in [1]
 
 ---
 ## Repository Overview
-
-Original Paper: (TO-DO: Update Information)
-
-Cite: (TO-DO: Update Information)
 
 Repository Structure:
  - Modules: (TO-DO: Update Information)
