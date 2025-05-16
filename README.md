@@ -3,7 +3,7 @@ Code corresponding to ICML 2025 paper "Generating Hypotheses of Dynamic Causal G
 
 Cite: [1] (TO-DO: Update Information)
 
-''' Contents Overview: '''
+_Contents Overview:_
  - Repository Overview: describes the contents and naming convention(s) of the repository
  - Environment Setup: describes how to install dependencies and set up a local system to use the repo
  - Dataset Curration and Preparation: describes how to prepare the data used for experiments in [1]
