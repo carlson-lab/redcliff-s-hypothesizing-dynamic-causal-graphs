@@ -1,0 +1,16 @@
+{
+    "save_path": "/train_results/NAVAR_CLSTM_d4IC_BCTVgs1Parsim", 
+    "num_nodes": "10",
+    "num_hidden": "256",
+    "maxlags": "2",
+    "hidden_layers": "1",
+    "dropout": "0",
+    "val_proportion": "0.0",
+    "epochs": "1000", 
+    "batch_size": "128", 
+    "check_every": "100", 
+    "learning_rate": "0.0001", 
+    "weight_decay": "0", 
+    "signal_format": "original", 
+    "lambda1": "0.0"
+}

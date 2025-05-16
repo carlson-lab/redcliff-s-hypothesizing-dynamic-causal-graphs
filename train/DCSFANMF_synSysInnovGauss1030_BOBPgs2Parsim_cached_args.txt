@@ -1,0 +1,20 @@
+{
+    "save_root_path": "/train_results/DCSFANMF_synSysInnovGauss1030_BOBPgs2Parsim", 
+    "batch_size": "128", 
+    "num_high_level_node_features": "13", 
+    "best_model_name": "dCSFA-NMF-best-model.pt", 
+    "num_node_features": "50", 
+    "n_components": "3", 
+    "n_sup_networks": "3", 
+    "signal_format": "original flattened directed_spectrum vanilla", 
+    "h": "256", 
+    "momentum": "0.9", 
+    "lr": "0.0005", 
+    "recon_weight": "2.0", 
+    "sup_weight": "1.0", 
+    "sup_recon_weight": "1.0", 
+    "sup_smoothness_weight": "1.0", 
+    "n_epochs": "250", 
+    "n_pre_epochs": "50", 
+    "nmf_max_iter": "10"
+}

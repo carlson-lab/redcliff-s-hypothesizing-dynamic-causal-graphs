@@ -1,0 +1,13 @@
+{
+    "save_root_path": "/train_results/DYNOTEARS_Vanilla_d4IC_BCNIBCHVgs1Parsim", 
+    "lambda_w": "0.9",
+    "lambda_a": "0.1",  
+    "max_iter": "100", 
+    "h_tol": "0.00000001", 
+    "w_threshold": "0.0",  
+    "tabu_edges": "None",  
+    "tabu_parent_nodes": "None",  
+    "tabu_child_nodes": "None",  
+    "lag_size": "1", 
+    "signal_format": "original"
+}

@@ -1,0 +1,19 @@
+{
+    "save_root_path": "/train_results/DGCNN_synSysInnovGauss1030_BLgs2_mi300", 
+    "batch_size": "128", 
+    "gen_eps": "0.0001", 
+    "gen_weight_decay": "0.0001", 
+    "max_iter": "300",
+    "lookback": "1",
+    "check_every": "10",
+    "verbose": "1",
+    "num_channels": "10", 
+    "wavelet_level": "None", 
+    "num_wavelets_per_chan": "1",
+    "num_features_per_node": "2",  
+    "num_graph_conv_layers": "3", 
+    "num_hidden_nodes": "250", 
+    "num_classes": "3", 
+    "signal_format": "original flattened", 
+    "gen_lr": "0.0001"
+}
