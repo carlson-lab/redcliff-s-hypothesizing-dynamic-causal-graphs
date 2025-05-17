@@ -1,11 +1,11 @@
 # redcliff-s-hypothesizing-dynamic-causal-graphs <br/><br/> :wavy_dash::curly_loop::cyclone::loop::bulb::pencil:
 Code corresponding to ICML 2025 paper "Generating Hypotheses of Dynamic Causal Graphs in Neuroscience: Leveraging Generative Factor Models of Observed Time Series"
 
-We ask that any derivative works which draw significantly from this project please cite our work as: ... (TO-DO: Update Information) ...
+We ask that any derivative works which draw significantly from this project please cite our work as: <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 **_References_**: 
- - [1] O.G. REDCLIFF-S PAPER (TO-DO: Update Information)
- - [2] TIDYBENCH (TO-DO: Update Information)
+ - [1] O.G. REDCLIFF-S PAPER <span style="color:red">... (TO-DO: Update Information) ...</span>
+ - [2] TIDYBENCH <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 **_README Overview_**: 
  - Repository Overview: describes the contents and naming convention(s) of the repository
@@ -40,12 +40,12 @@ To set up your local system(s) for running the code in this repository, complete
  2) Create a new conda environment via ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025.yml```
  3) Activate the new conda environment via ```conda activate yourRedcliffEnvironment```
  4) Set up your local file structure. The repository assumes you have the following folders in your system - you may change them as needed, but this will require editing numerous scripts (esp. any ending in "\_cached_args.txt" that you wish to run):
-    * ... (TO-DO: Update Information) ...
+    * <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 ---
 ## Dataset Curration and Preparation :open_file_folder:
 
-How to download/generate and prepare data files ... (TO-DO: Update Information) ...
+How to download/generate and prepare data files <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 **_Synthetic Systems Datasets_**:
  1) currate the dataset(s) by running ```python3 data/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL.py```
@@ -55,20 +55,20 @@ How to download/generate and prepare data files ... (TO-DO: Update Information) 
 
 **_D4IC Dataset(s)_**:
  1) Downlaod the original Dream4 Challenge Dataset from <https://www.synapse.org/Portal/filehandle?ownerId=syn3049712&ownerType=ENTITY&fileName=DREAM4_InSilico_Size10.zip&preview=false&wikiId=74630>, and extract contents into ```/datasets/dream4/preprocessed/size10_individual_noStateLabels```
- 2) ... (TO-DO: Update Information) ...
+ 2) <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 **_TST-100Hz Dataset(s)_**:
- 1) ... (TO-DO: Update Information) ...
+ 1) <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 **_Social Preference-100Hz Dataset(s)_**:
- 1) ... (TO-DO: Update Information) ...
+ 1) <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 ---
 ## Model Training :steam_locomotive::railway_car::railway_car: 
 
-How to train various models and search hyperparameters ... (TO-DO: Update Information) ...
+How to train various models and search hyperparameters <span style="color:red">... (TO-DO: Update Information) ...</span>
 
 ---
 ## Evaluation and Results Analysis :bar_chart::chart_with_downwards_trend::chart_with_upwards_trend:
 
-How to run analyses to evaluate models and perform experiments from original paper ... (TO-DO: Update Information) ...
+How to run analyses to evaluate models and perform experiments from original paper <span style="color:red">... (TO-DO: Update Information) ...</span>
