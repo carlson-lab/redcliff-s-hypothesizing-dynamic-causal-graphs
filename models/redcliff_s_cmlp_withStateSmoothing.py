@@ -362,7 +362,7 @@ class REDCLIFF_S_CMLP_withStateSmoothing(nn.Module):
                 else:
                     curr_input = torch.zeros(*X[:,-1*self.gen_lag:,:].size())
                     if torch.cuda.is_available():
-                        in_x = in_x.to(device="cuda")
+                        curr_input = curr_input.to(device="cuda")
                     curr_input = curr_input + X[:,-1*self.gen_lag:,:]
                     
                 curr_pred = self.factors[i](curr_input)
