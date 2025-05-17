@@ -1,6 +1,8 @@
 # redcliff-s-hypothesizing-dynamic-causal-graphs <br/><br/> :wavy_dash::curly_loop::cyclone::loop::bulb::pencil:
 Code corresponding to ICML 2025 paper "Generating Hypotheses of Dynamic Causal Graphs in Neuroscience: Leveraging Generative Factor Models of Observed Time Series"
 
+We ask that any derivative works which draw significantly from this project please cite our work as: ... (TO-DO: Update Information) ...
+
 **_References_**: 
  - [1] O.G. REDCLIFF-S PAPER (TO-DO: Update Information)
  - [2] TIDYBENCH (TO-DO: Update Information)
