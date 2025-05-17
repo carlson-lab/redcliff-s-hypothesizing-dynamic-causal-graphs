@@ -41,10 +41,10 @@ How to set up local system(s) for running repo-code ... (TO-DO: Update Informati
 How to download/generate and prepare data files ... (TO-DO: Update Information) ...
 
 **_Synthetic Systems Datasets:_**:
- 1) currate the dataset(s) by running <data/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL.py>
- 2) 'clean'/organize the dataset(s) by running <data/clean_sVARwInnovativeContinuousGaussianNoise_data_etNL.py>
- 3) re-organize data into format for supervised causal discovery task (see Table 2 of [1]) by running <data/aggregate_synthetic_systems_datasets.py>
- 4) load/manage with classes and functions from <data/synthetic_datasets.py>
+ 1) currate the dataset(s) by running <python3 data/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL.py>
+ 2) 'clean'/organize the dataset(s) by running <python3 data/clean_sVARwInnovativeContinuousGaussianNoise_data_etNL.py>
+ 3) re-organize data into format for supervised causal discovery task (see Table 2 of [1]) by running <python3 data/aggregate_synthetic_systems_datasets.py>
+ 4) load/manage with classes and functions from <python3 data/synthetic_datasets.py>
 
 **_D4IC Dataset(s):_**:
 
