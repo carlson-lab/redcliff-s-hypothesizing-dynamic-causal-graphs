@@ -1,4 +1,4 @@
-# redcliff-s-hypothesizing-dynamic-causal-graphs
+# redcliff-s-hypothesizing-dynamic-causal-graphs :wavy_dash::curly_loop::cyclone::loop::bulb::pencil2:
 Code corresponding to ICML 2025 paper "Generating Hypotheses of Dynamic Causal Graphs in Neuroscience: Leveraging Generative Factor Models of Observed Time Series"
 
 Citations: 
@@ -13,7 +13,7 @@ Citations:
  - Evaluation and Results Analysis: describes how to analyze results and reconstruct findings reported in [1]
 
 ---
-## Repository Overview
+## Repository Overview :sunrise_over_mountains:
 
 **_Modules_**:
  - data: contains scripts, functions, and class definitions for handling data used in [1]
@@ -31,12 +31,12 @@ Citations:
     * Note that scripts for evaluating grid searches over hyperparameters break this convention, instead being named as "eval_gs_" followed by "algorithmName_datasetNameUsedInGridSearch_uniqueSearchIdentifier"
 
 ---
-## Environment Setup
+## Environment Setup :wrench::hammer:
 
 How to set up local system(s) for running repo-code ... (TO-DO: Update Information) ...
 
 ---
-## Dataset Curration and Preparation
+## Dataset Curration and Preparation :open_file_folder:
 
 How to download/generate and prepare data files ... (TO-DO: Update Information) ...
 
@@ -53,11 +53,11 @@ How to download/generate and prepare data files ... (TO-DO: Update Information) 
 **_Social Preference-100Hz Dataset(s)_**:
 
 ---
-## Model Training
+## Model Training :steam_locomotive::railway_car::railway_car: 
 
 How to train various models and search hyperparameters ... (TO-DO: Update Information) ...
 
 ---
-## Evaluation and Results Analysis
+## Evaluation and Results Analysis :bar_chart::chart_with_downwards_trend::chart_with_upwards_trend:
 
 How to run analyses to evaluate models and perform experiments from original paper ... (TO-DO: Update Information) ...
