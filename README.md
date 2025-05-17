@@ -47,7 +47,8 @@ How to download/generate and prepare data files ... (TO-DO: Update Information) 
  4) load/manage with classes and functions from ```python3 data/synthetic_datasets.py```
 
 **_D4IC Dataset(s)_**:
- 1) Downlaod the original Dream4 Challenge Dataset from <https://www.synapse.org/Portal/filehandle?ownerId=syn3049712&ownerType=ENTITY&fileName=DREAM4_InSilico_Size10.zip&preview=false&wikiId=74630>
+ 1) Downlaod the original Dream4 Challenge Dataset from <https://www.synapse.org/Portal/filehandle?ownerId=syn3049712&ownerType=ENTITY&fileName=DREAM4_InSilico_Size10.zip&preview=false&wikiId=74630>, and extract contents into ```/datasets/dream4/preprocessed/size10_individual_noStateLabels```
+ 2) ... (TO-DO: Update Information) ...
 
 **_TST-100Hz Dataset(s)_**:
 
