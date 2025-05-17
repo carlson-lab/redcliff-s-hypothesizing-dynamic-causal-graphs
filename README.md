@@ -56,8 +56,10 @@ How to download/generate and prepare data files ... (TO-DO: Update Information) 
  2) ... (TO-DO: Update Information) ...
 
 **_TST-100Hz Dataset(s)_**:
+ 1) ... (TO-DO: Update Information) ...
 
 **_Social Preference-100Hz Dataset(s)_**:
+ 1) ... (TO-DO: Update Information) ...
 
 ---
 ## Model Training :steam_locomotive::railway_car::railway_car: 
