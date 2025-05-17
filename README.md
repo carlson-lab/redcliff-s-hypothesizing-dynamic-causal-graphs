@@ -24,8 +24,8 @@ Citations:
  - train: contains scripts for training algorithms/baselines described in [1]
 
 
-Repository Structure:
- - Naming Convention(s): (TO-DO: Update Information)
+**_Naming Conventions_**:
+ - Training Scripts: generally formatted as "algName_datasetName_uniqueScriptIdentifier", along with either ".py" for the actual python script or "_cached_args.txt" to denote a file that contains the hyperparameters for the script
 
 ---
 ## Environment Setup
