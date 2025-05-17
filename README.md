@@ -5,7 +5,7 @@ Citations:
  - [1] O.G. REDCLIFF-S PAPER (TO-DO: Update Information)
  - [2] TIDYBENCH (TO-DO: Update Information)
 
-**_Contents Overview:_**
+**_README Overview:_**
  - Repository Overview: describes the contents and naming convention(s) of the repository
  - Environment Setup: describes how to install dependencies and set up a local system to use the repo
  - Dataset Curration and Preparation: describes how to prepare the data used for experiments in [1]
