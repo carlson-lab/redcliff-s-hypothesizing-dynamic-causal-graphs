@@ -25,7 +25,9 @@ Citations:
 
 
 **_Naming Conventions_**:
+ - Data Scripts: files which end in "_datasets.py" contain class definitions for DataSet and DataLoader objects, while all other files are used for currating and/or organizing (esp. "clean_*" named scripts) data files
  - Training Scripts: generally formatted as "algName_datasetName_uniqueScriptIdentifier", along with either ".py" for the actual python script or "_cached_args.txt" to denote a file that contains the hyperparameters for the script
+ - Evlauation Scripts: (TO-DO: Update Information)
 
 ---
 ## Environment Setup
