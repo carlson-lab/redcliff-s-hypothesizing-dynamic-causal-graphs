@@ -358,7 +358,7 @@ def compute_cosine_similarity_betw_pytorch_tensors(A, B, include_diag=True):
         
         device_of_A = A.get_device()
         if device_of_A != -1: # see https://pytorch.org/docs/stable/generated/torch.Tensor.get_device.html
-            I = I.to('cuda', device_of_A) # see https://pytorch.org/docs/stable/tensor_attributes.html#torch.device
+            I = I.to('cuda')#, device_of_A) # see https://pytorch.org/docs/stable/tensor_attributes.html#torch.device
             
         A = A - I
         B = B - I
