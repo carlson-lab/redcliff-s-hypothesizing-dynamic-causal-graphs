@@ -33,7 +33,12 @@ Citations:
 ---
 ## Environment Setup :wrench::hammer:
 
-How to set up local system(s) for running repo-code ... (TO-DO: Update Information) ...
+To set up your local system(s) for running the code in this repository, complete the following steps:
+ 1) Set up Anaconda on your system(s)
+ 2) Create a new conda environment via ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025.yml```
+ 3) Activate the new conda environment via ```conda activate yourRedcliffEnvironment```
+ 4) Set up your local file structure. The repository assumes you have the following folders in your system - you may change them as needed, but this will require editing numerous scripts (esp. any ending in "\_cached_args.txt" that you wish to run):
+    * ... (TO-DO: Update Information) ...
 
 ---
 ## Dataset Curration and Preparation :open_file_folder:
