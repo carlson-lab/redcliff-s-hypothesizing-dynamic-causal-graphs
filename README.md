@@ -44,7 +44,7 @@ We ask that any derivative works which draw significantly from this project plea
 ---
 ## Environment Setup :wrench::hammer:
 
-To set up your local system(s) for running the code in this repository, complete the following steps:
+To set up your local system(s) for running _most_ of the code in this repository (e.g. training algorithms defined in the 'models' module and most evaluations), complete the following steps:
  1) Set up Anaconda on your system(s)
  2) Create a new conda environment via ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025.yml```
  3) Activate the new conda environment via ```conda activate yourRedcliffEnvironment```
@@ -53,6 +53,7 @@ To set up your local system(s) for running the code in this repository, complete
 ```diff 
 - ... (TO-DO: Update Information) ...
 ```
+If you intend on running comparisons between REDCLIFF-S and the supervised causal discovery algorithms from Table 2 [1], then run the preceding steps, but substitute the command in Step 2 with ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025-eval-env.yml'''. Please note that we suggest only doing this if necessary, as the dependencies in redcliff-s-icml2025-eval-env.yml are primarily installed via pip, whereas redcliff-s-icml2025.yml places far more emphasis on conda installations.
 
 ---
 ## Dataset Curration and Preparation :open_file_folder:
