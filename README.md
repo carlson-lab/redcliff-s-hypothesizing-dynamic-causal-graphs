@@ -53,7 +53,7 @@ To set up your local system(s) for running _most_ of the code in this repository
 ```diff 
 - ... (TO-DO: Update Information) ...
 ```
-If you intend on running comparisons between REDCLIFF-S and the supervised causal discovery algorithms from Table 2 [1], then run the preceding steps, but substitute the command in Step 2 with ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025-eval-env.yml'''. Please note that we suggest only doing this if necessary, as the dependencies in redcliff-s-icml2025-eval-env.yml are primarily installed via pip, whereas redcliff-s-icml2025.yml places far more emphasis on conda installations.
+If you intend on running comparisons between REDCLIFF-S and the supervised causal discovery algorithms from Table 2 [1], then run the preceding steps, but substitute the command in Step 2 with ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025-eval-env.yml```. Please note that we suggest only doing this if necessary, as the dependencies in redcliff-s-icml2025-eval-env.yml are primarily installed via pip, whereas redcliff-s-icml2025.yml places far more emphasis on conda installations.
 
 ---
 ## Dataset Curration and Preparation :open_file_folder:
