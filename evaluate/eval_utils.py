@@ -797,7 +797,7 @@ def get_path_to_trained_model(alg_name, dset_name, root_paths_to_trained_models,
 def load_model_for_eval(model_type, model_path, dynamic_eval=False, d4IC=False, dcsfa_dim_in=None):
     model = None
     if "cMLP" in model_type or "DGCNN" in model_type or "cLSTM" in model_type or "REDCLIFF" in model_type or "NAVAR" in model_type:
-        model = torch.load(model_path, map_location=torch.device('cpu'))
+        model = torch.load(model_path, map_location=torch.device('cpu'), weights_only=False)
         model.eval()
     elif "DCSFA" in model_type:
         if dynamic_eval:
@@ -840,7 +840,7 @@ def load_model_for_eval(model_type, model_path, dynamic_eval=False, d4IC=False, 
             )
             model._initialize_NMF(dcsfa_dim_in)
             model._initialize(dcsfa_dim_in)
-            model.load_state_dict(torch.load(model_path))
+            model.load_state_dict(torch.load(model_path), weights_only=False)
         elif d4IC:
             model_param_str = model_path.split(os.sep)[-2]
             split_param_str = model_param_str.split("_")
@@ -870,12 +870,12 @@ def load_model_for_eval(model_type, model_path, dynamic_eval=False, d4IC=False, 
             )
             model._initialize_NMF(500)
             model._initialize(500)
-            model.load_state_dict(torch.load(model_path))
+            model.load_state_dict(torch.load(model_path), weights_only=False)
         else:
-            model = torch.load(model_path, map_location=torch.device('cpu'))
+            model = torch.load(model_path, map_location=torch.device('cpu'), weights_only=False)
         model.eval()
     elif "DYNOTEARS" in model_type:
-        model = torch.load(model_path, map_location=torch.device('cpu'))
+        model = torch.load(model_path, map_location=torch.device('cpu'), weights_only=False)
     else:
         raise NotImplementedError()
     return model
