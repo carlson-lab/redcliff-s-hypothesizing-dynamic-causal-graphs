@@ -90,7 +90,35 @@ Note that the supervised causal discovery algorithms from Table 2 [1] were imple
 ---
 ## Evaluation and Results Analysis :bar_chart::chart_with_downwards_trend::chart_with_upwards_trend:
 
-How to run analyses to evaluate models and perform experiments from original paper 
+In this section, we outline the instructions for how to run analyses to evaluate models and perform experiments from original paper [1]. Most model .fit() methods include some form of training performance tracking, so we do not cover training analytics here.
+
+**_Comparing 'models' Algorithms on Synthetic Systems Dataset Performance_**:
 ```diff 
 - ... (TO-DO: Update Information) ...
 ```
+
+**_Comparing Supervised Causal Discovery Algorithms on Synthetic System 12-11-2 Dataset Performance_**:
+```diff 
+- ... (TO-DO: Update Information) ...
+```
+
+**_Comparing 'models' Algorithms on D4IC Dataset Performance_**:
+```diff 
+- ... (TO-DO: Update Information) ...
+```
+
+**_Evaluating REDCLIFF-S Hyperparameter Ablations (Table 3 [1])_**:
+```diff 
+- ... (TO-DO: Update Information) ...
+```
+
+**_Evaluating Hyperparameter Grid Searches_**:
+```diff 
+- ... (TO-DO: Update Information) ...
+```
+
+**_Analyzing REDCLIFF-S Models of Real-World Data (TST and SP)_**:
+```diff 
+- ... (TO-DO: Update Information) ...
+```
+
