@@ -83,10 +83,9 @@ In this section we lay out the steps for downloading/generating and preparing da
 ---
 ## Model Training :steam_locomotive::railway_car::railway_car: 
 
-How to train various models and search hyperparameters 
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+The algorithms defined in the 'models' module can be trained via ```cd train | python3 algName_dataName_uniqueExperimentIdentifier.py``` (substituting in an actual script name from the 'train' module). To tune model hyperparameters, follow the pattern used in train/REDCLIFF_S_CMLP_tst100hzRerun1024AvgReg_gsSmooth1.py; the pattern can best be seen by running ```ctrl+F gen_lr``` in train/REDCLIFF_S_CMLP_tst100hzRerun1024AvgReg_gsSmooth1.py and seeing each reference to this particular hyperparameter throughout the file (similar references would need to be implemented for each hyperparameter you wish to tune in the training script for any algorithm from the 'models' module).
+
+Note that the supervised causal discovery algorithms from Table 2 [1] were implemented later and thus do not follow the same training conventions as the algorithms in 'models'; to train these algorithms, see the instructions for running Table 2 evaluations in the next section of this README.
 
 ---
 ## Evaluation and Results Analysis :bar_chart::chart_with_downwards_trend::chart_with_upwards_trend:
