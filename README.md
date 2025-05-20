@@ -83,7 +83,9 @@ In this section we lay out the steps for downloading/generating and preparing da
 ---
 ## Model Training :steam_locomotive::railway_car::railway_car: 
 
-The algorithms defined in the 'models' module can be trained via ```cd train | python3 algName_dataName_uniqueExperimentIdentifier.py``` (substituting in an actual script name from the 'train' module). To tune model hyperparameters, follow the pattern used in train/REDCLIFF_S_CMLP_tst100hzRerun1024AvgReg_gsSmooth1.py; the pattern can best be seen by running ```ctrl+F gen_lr``` in train/REDCLIFF_S_CMLP_tst100hzRerun1024AvgReg_gsSmooth1.py and seeing each reference to this particular hyperparameter throughout the file (similar references would need to be implemented for each hyperparameter you wish to tune in the training script for any algorithm from the 'models' module).
+The algorithms defined in the 'models' module can be trained via ```cd train | python3 algName_dataName_uniqueExperimentIdentifier.py 2>&1 | tee logs_algName_dataName_uniqueExperimentIdentifier.out``` (substituting in an actual script name from the 'train' module). Note that the log file output is necessary for running various evaluations outlined in the next section of the README - if you do not intend to run these evaluations, it may not be necessary. 
+
+To tune model hyperparameters, follow the pattern used in train/REDCLIFF_S_CMLP_tst100hzRerun1024AvgReg_gsSmooth1.py; the pattern can best be seen by running ```ctrl+F gen_lr``` in train/REDCLIFF_S_CMLP_tst100hzRerun1024AvgReg_gsSmooth1.py and seeing each reference to this particular hyperparameter throughout the file (similar references would need to be implemented for each hyperparameter you wish to tune in the training script for any algorithm from the 'models' module).
 
 Note that the supervised causal discovery algorithms from Table 2 [1] were implemented later and thus do not follow the same training conventions as the algorithms in 'models'; to train these algorithms, see the instructions for running Table 2 evaluations in the next section of this README.
 
@@ -112,10 +114,9 @@ In this section, we outline the instructions for how to run analyses to evaluate
 - ... (TO-DO: Update Information) ...
 ```
 
-**_Evaluating Hyperparameter Grid Searches_**:
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+**_Evaluating Hyperparameter Grid Searches for 'models' Algorithms_**:
+
+To determine the best hyperparameter settings for a grid search over hyperparameters of an algorithm in the 'models' module, adapt the evaluate/eval_gs_REDCLIFF_S_CMLP_SocPref100hz0326AvgReg_gsSmo1_tstParamsBSCgsSmo1_dataFULL.py script (and associated cached_args file) to match the algorithm and/or hyperparameters being analyzed. Usually, this should just mean reducing the script to just inspect 'training_loss_history' and/or 'val_loss_history' (for non-REDCLIFF-S algorithms), which can be most easily done by running ```ctrl+F factor_loss``` inside evaluate/eval_gs_REDCLIFF_S_CMLP_SocPref100hz0326AvgReg_gsSmo1_tstParamsBSCgsSmo1_dataFULL.py and substituting any references to 'factor_loss' with references to the stopping criteria (again, usually something like 'val_loss_history') and then removing references to any other 'tracked statistic' (e.g. 'roc_auc', 'deltacon0', 'mse', 'gc_cosine_sim', 'l1', etc).
 
 **_Analyzing REDCLIFF-S Models of Real-World Data (TST and SP)_**:
 ```diff 
