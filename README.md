@@ -101,9 +101,9 @@ In this section, we outline the instructions for how to run analyses to evaluate
  4) For further analyses, review the code cells/content under the "Synthetic Systems Experiment Analyses" header in evaluate/ICML2025_REDCLIFF_S_CMLP_Experiments_and_Analyses_CodeRepo_Notebook.ipynb, which should draw from files output by the previous 3 steps (e.g. 'stats_by_alg_key_dict_fold0.pkl')
 
 **_Comparing Supervised Causal Discovery Algorithms on Synthetic System 12-11-2 Dataset Performance_**:
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+ 1) Run  ```cd evaluate | python3 eval_sysOptF1_crossAlg_d4IC_HSNR_bCgsParsim_REDCvNEWcMLP.py 2>&1 | tee logs_eval_sysOptF1_crossAlg_d4IC_HSNR_bCgsParsim_REDCvNEWcMLP.out```, which will run the bulk of statistical comparisons between REDCLIFF-S and other algorithms on D4IC HSNR data
+ 2) Repeat step 1, substituting in all combinations of [HSNR, MSNR, LSNR] and [REDCvNEWcMLP, REDCvOGcMLP]
+ 4) For further analyses, review the code cells/content under the "D4IC Experiment Analyses" header in evaluate/ICML2025_REDCLIFF_S_CMLP_Experiments_and_Analyses_CodeRepo_Notebook.ipynb, which should draw from files output by the previous 3 steps (e.g. 'stats_by_alg_key_dict_fold0.pkl')
 
 **_Comparing 'models' Algorithms on D4IC Dataset Performance_**:
 ```diff 
