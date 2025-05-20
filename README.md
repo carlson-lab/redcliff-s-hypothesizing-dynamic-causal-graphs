@@ -59,25 +59,25 @@ If you intend on running comparisons between REDCLIFF-S and the supervised causa
 In this section we lay out the steps for downloading/generating and preparing data files for use in this repository.
 
 **_Synthetic Systems Datasets_**:
- 1) currate the dataset(s) by running ```python3 data/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL.py```
- 2) 'clean'/organize the dataset(s) by running ```python3 data/clean_sVARwInnovativeContinuousGaussianNoise_data_etNL.py```
- 3) re-organize data into format for supervised causal discovery task (see Table 2 of [1]) by running ```python3 data/aggregate_synthetic_systems_datasets.py```
+ 1) currate the dataset(s) by running ```cd data | python3 currate_sVARwInnovativeContinuousGaussianNoise_data_etNL.py```
+ 2) 'clean'/organize the dataset(s) by running ```cd data | python3 clean_sVARwInnovativeContinuousGaussianNoise_data_etNL.py```
+ 3) re-organize data into format for supervised causal discovery task (see Table 2 of [1]) by running ```cd data | python3 aggregate_synthetic_systems_datasets.py```
  4) load/manage data with classes and functions from data/synthetic_datasets.py
 
 **_D4IC Dataset(s)_**:
  1) Downlaod the original Dream4 Challenge Dataset from <https://www.synapse.org/Portal/filehandle?ownerId=syn3049712&ownerType=ENTITY&fileName=DREAM4_InSilico_Size10.zip&preview=false&wikiId=74630>, and extract contents into ```/datasets/dream4/preprocessed/size10_individual_noStateLabels```
- 2) Run ```python3 data/dream4.py``` to preprocess original Dream4 Challenge data prior to D4IC data curration
- 3) Run ```python3 dream4_insilicoCombo.py``` to currate the D4IC dataset(s)
+ 2) Run ```cd data | python3 dream4.py``` to preprocess original Dream4 Challenge data prior to D4IC data curration
+ 3) Run ```cd data | python3 dream4_insilicoCombo.py``` to currate the D4IC dataset(s)
  4) load/manage data with classes and functions from data/dream4_datasets.py
 
 **_TST-100Hz Dataset(s)_**:
  1) Download the original Tail Suspension Test (TST) Dataset from <https://research.repository.duke.edu/concern/datasets/zc77sr31x?locale=en>, and extract contents into ```/public_TST_data/original_format```
- 2) Run ```python3 data/tst_100HzLP.py``` to preprocess the TST dataset
+ 2) Run ```cd data | python3 tst_100HzLP.py``` to preprocess the TST dataset
  3) load/manage data with classes and functions from data/local_field_potential_datasets.py
 
 **_Social Preference-100Hz Dataset(s)_**:
  1) As directed in the original paper [3], obtain the original Social Preference (SP) Dataset by reaching out to the lead contact, Kafui Dzirasa (kafui.dzirasa@duke.edu)
- 2) Run ```python3 data/socialPreference_100HzLP.py``` to preprocess the SP dataset
+ 2) Run ```cd data | python3 socialPreference_100HzLP.py``` to preprocess the SP dataset
  3) load/manage data with classes and functions from data/local_field_potential_datasets.py
 
 ---
