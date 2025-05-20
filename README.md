@@ -11,10 +11,7 @@ We ask that any derivative works which draw significantly from this project plea
 ```diff 
 - ... (TO-DO: Update Information) ...
 ```
- - [2] TIDYBENCH 
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+ - [2] Weichwald, S., Jakobsen, M. E., Mogensen, P. B., Petersen, L., Thams, N., & Varando, G. (2020, August). Causal structure learning from time series: Large regression coefficients may predict causal links better in practice than small p-values. In NeurIPS 2019 Competition and Demonstration Track (pp. 27-36). PMLR.
  - [3] Mague, S. D., Talbot, A., Blount, C., Walder-Christensen, K. K., Duffney, L. J., Adamson, E., ... & Dzirasa, K. (2022). Brain-wide electrical dynamics encode individual appetitive social behavior. Neuron, 110(10), 1728-1741.
 
 **_README Overview_**: 
