@@ -6,7 +6,7 @@ We ask that any derivative works which draw significantly from this project plea
 - ... (TO-DO: Update Information) ...
 ```
 
-**_References_**: 
+**_References_** (APA format): 
  - [1] O.G. REDCLIFF-S PAPER 
 ```diff 
 - ... (TO-DO: Update Information) ...
@@ -15,6 +15,7 @@ We ask that any derivative works which draw significantly from this project plea
 ```diff 
 - ... (TO-DO: Update Information) ...
 ```
+ - [3] Mague, S. D., Talbot, A., Blount, C., Walder-Christensen, K. K., Duffney, L. J., Adamson, E., ... & Dzirasa, K. (2022). Brain-wide electrical dynamics encode individual appetitive social behavior. Neuron, 110(10), 1728-1741.
 
 **_README Overview_**: 
  - Repository Overview: describes the contents and naming convention(s) of the repository
@@ -58,10 +59,7 @@ If you intend on running comparisons between REDCLIFF-S and the supervised causa
 ---
 ## Dataset Curration and Preparation :open_file_folder:
 
-How to download/generate and prepare data files 
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+In this section we lay out the steps for downloading/generating and preparing data files for use in this repository.
 
 **_Synthetic Systems Datasets_**:
  1) currate the dataset(s) by running ```python3 data/currate_sVARwInnovativeContinuousGaussianNoise_data_etNL.py```
@@ -78,13 +76,12 @@ How to download/generate and prepare data files
 **_TST-100Hz Dataset(s)_**:
  1) Download the original Tail Suspension Test (TST) Dataset from <https://research.repository.duke.edu/concern/datasets/zc77sr31x?locale=en>, and extract contents into ```/public_TST_data/original_format```
  2) Run ```python3 data/tst_100HzLP.py``` to preprocess the TST dataset
- 3) load/manage data with classes and functions from data/dream4_datasets.py
+ 3) load/manage data with classes and functions from data/local_field_potential_datasets.py
 
 **_Social Preference-100Hz Dataset(s)_**:
- 1) 
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+ 1) As directed in the original paper [3], obtain the original Social Preference (SP) Dataset by reaching out to the lead contact, Kafui Dzirasa (kafui.dzirasa@duke.edu)
+ 2) Run ```python3 data/socialPreference_100HzLP.py``` to preprocess the SP dataset
+ 3) load/manage data with classes and functions from data/local_field_potential_datasets.py
 
 ---
 ## Model Training :steam_locomotive::railway_car::railway_car: 
