@@ -71,15 +71,14 @@ How to download/generate and prepare data files
 
 **_D4IC Dataset(s)_**:
  1) Downlaod the original Dream4 Challenge Dataset from <https://www.synapse.org/Portal/filehandle?ownerId=syn3049712&ownerType=ENTITY&fileName=DREAM4_InSilico_Size10.zip&preview=false&wikiId=74630>, and extract contents into ```/datasets/dream4/preprocessed/size10_individual_noStateLabels```
- 2) Run ```python3 data/dream4.py``` to preprocess original Dream4 Challenge data prior to D4IC data curration.
- 3) Run ```python3 dream4_insilicoCombo.py``` to currate the D4IC dataset(s).
+ 2) Run ```python3 data/dream4.py``` to preprocess original Dream4 Challenge data prior to D4IC data curration
+ 3) Run ```python3 dream4_insilicoCombo.py``` to currate the D4IC dataset(s)
  4) load/manage data with classes and functions from data/dream4_datasets.py
 
 **_TST-100Hz Dataset(s)_**:
- 1) 
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+ 1) Download the original Tail Suspension Test (TST) Dataset from <https://research.repository.duke.edu/concern/datasets/zc77sr31x?locale=en>, and extract contents into ```/public_TST_data/original_format```
+ 2) Run ```python3 data/tst_100HzLP.py``` to preprocess the TST dataset
+ 3) load/manage data with classes and functions from data/dream4_datasets.py
 
 **_Social Preference-100Hz Dataset(s)_**:
  1) 
