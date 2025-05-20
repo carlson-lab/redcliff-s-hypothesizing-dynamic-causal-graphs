@@ -108,12 +108,12 @@ In this section, we outline the instructions for how to run analyses to evaluate
 **_Comparing 'models' Algorithms on D4IC Dataset Performance_**:
  1) Run  ```cd evaluate | python3 eval_sysOptF1_crossAlg_d4IC_HSNR_bCgsParsim_REDCvNEWcMLP.py 2>&1 | tee logs_eval_sysOptF1_crossAlg_d4IC_HSNR_bCgsParsim_REDCvNEWcMLP.out```, which will run the bulk of statistical comparisons between REDCLIFF-S and other algorithms on D4IC HSNR data
  2) Repeat step 1, substituting in all combinations of [HSNR, MSNR, LSNR], [bCgsParsim, bCgs1v1223,], and [REDCvNEWcMLP, REDCvOGcMLP] (note that scripts named with 'bCgsParsim' should correspond to the results reported in [1]
- 4) For further analyses, review the code cells/content under the "D4IC Experiment Analyses" header (esp. following the "Computing Complexity Score of D4IC HSNR Networks 01/27/2025" sub-header) in evaluate/ICML2025_REDCLIFF_S_CMLP_Experiments_and_Analyses_CodeRepo_Notebook.ipynb, which should draw from files output by the previous 3 steps (e.g. 'stats_by_alg_key_dict_fold0.pkl')
+ 3) For further analyses, review the code cells/content under the "D4IC Experiment Analyses" header (esp. following the "Computing Complexity Score of D4IC HSNR Networks 01/27/2025" sub-header) in evaluate/ICML2025_REDCLIFF_S_CMLP_Experiments_and_Analyses_CodeRepo_Notebook.ipynb, which should draw from files output by the previous 3 steps (e.g. 'stats_by_alg_key_dict_fold0.pkl')
 
 **_Evaluating REDCLIFF-S Hyperparameter Ablations (Table 3 [1])_**:
-```diff 
-- ... (TO-DO: Update Information) ...
-```
+ 1) Run  ```cd evaluate | python3 eval_sysOptF1_crossAlg_d4IC_HSNR_BSCgs4ParSmo0v0104_RAbl0CosSim.py 2>&1 | tee logs_eval_sysOptF1_crossAlg_d4IC_HSNR_BSCgs4ParSmo0v0104_RAbl0CosSim.out```, which will run the bulk of statistical comparisons between the CosSim-_ablated_ REDCLIFF-S model and other algorithms on D4IC HSNR data
+ 2) Repeat step 1 for the eval_sysOptF1_crossAlg_d4IC_HSNR_BSCgs4ParSmo0v0104_RAbl1Fac.py, eval_sysOptF1_crossAlg_d4IC_HSNR_BSCgs4ParSmo0v0104_RAblFixFac.py, and eval_sysOptF1_crossAlg_d4IC_HSNR_BSCgs4ParSmo0v0104_RAblU.py ablation evaluation scripts
+ 3) For further analyses, review the code cells/content under the "D4IC Experiment Analyses" header (esp. following the "Ablation Summaries" sub-header) in evaluate/ICML2025_REDCLIFF_S_CMLP_Experiments_and_Analyses_CodeRepo_Notebook.ipynb, which should draw from files output by the previous 3 steps (esp. the logs files)
 
 **_Evaluating Hyperparameter Grid Searches for 'models' Algorithms_**:
 
