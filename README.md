@@ -98,7 +98,7 @@ In this section, we outline the instructions for how to run analyses to evaluate
  1) Run  ```cd evaluate | python3 eval_sysOptF1_crossAlg_synSysInnovGauss1030_bSCgsParsim_REDCSmo_mi300.py 2>&1 | tee logs_eval_sysOptF1_crossAlg_synSysInnovGauss1030_bSCgsParsim_REDCSmo_mi300.out```, which will run the bulk of statistical comparisons between REDCLIFF-S and other algorithms
  2) Run  ```cd evaluate | python3 summ_offDiagF1_eval_sysOptF1_crossAlg_synSysIG1030_bSCgsParsim_REDCSmo_mi300.py 2>&1 | tee logs_summ_offDiagF1_eval_sysOptF1_crossAlg_synSysIG1030_bSCgsParsim_REDCSmo_mi300.out```, which will summarize key statistics of interest from step 1
  3) Run  ```cd evaluate | python3 plotCrossExpSummaries_eval_sysOptF1_crossAlg_synSysIG1030_bSCgsParsim_REDCSmo_mi300.py 2>&1 | tee logs_plotCrossExpSummaries_eval_sysOptF1_crossAlg_synSysIG1030_bSCgsParsim_REDCSmo_mi300.out```, which will plot key statistics of interest from prior step(s)
- 4) For further analyses, review the code cells/content under the "Synthetic Systems Experiment Analyses" header in evaluate/ICML2025_REDCLIFF_S_CMLP_Experiments_and_Analyses_CodeRepo_Notebook.ipynb
+ 4) For further analyses, review the code cells/content under the "Synthetic Systems Experiment Analyses" header in evaluate/ICML2025_REDCLIFF_S_CMLP_Experiments_and_Analyses_CodeRepo_Notebook.ipynb, which should draw from files output by the previous 3 steps (e.g. 'stats_by_alg_key_dict_fold0.pkl')
 
 **_Comparing Supervised Causal Discovery Algorithms on Synthetic System 12-11-2 Dataset Performance_**:
 ```diff 
