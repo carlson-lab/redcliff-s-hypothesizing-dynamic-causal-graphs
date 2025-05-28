@@ -3,8 +3,8 @@ Code corresponding to ICML 2025 paper "Generating Hypotheses of Dynamic Causal G
 
 We ask that any derivative works which draw significantly from this project please cite our work as: 
 ```diff 
-Note: The Bibtex below corresponds to the PREPRINT version of the paper - this will be updated once the final version of the paper has been released.
-```
+- Note: The Bibtex below corresponds to the PREPRINT version of the paper - this will be updated once the final version of the paper has been released.
+
 @misc{brown2025generatinghypothesesdynamiccausal,
       title={Generating Hypotheses of Dynamic Causal Graphs in Neuroscience: Leveraging Generative Factor Models of Observed Time Series}, 
       author={Zachary C. Brown and David Carlson},
@@ -14,6 +14,7 @@ Note: The Bibtex below corresponds to the PREPRINT version of the paper - this w
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2505.20697}, 
 }
+```
 
 **_References_** (APA format): 
  - [1] O.G. REDCLIFF-S PAPER 
