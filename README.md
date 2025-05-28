@@ -44,14 +44,14 @@ We ask that any derivative works which draw significantly from this project plea
 
 To set up your local system(s) for running _most_ of the code in this repository (e.g. training algorithms defined in the 'models' module and most evaluations), complete the following steps:
  1) Set up Anaconda on your system(s)
- 2) Create a new conda environment via ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025.yml```
+ 2) Create a new conda environment via ```conda env create --yourRedcliffEnvironment --file=redcliffs-env.yml```
  3) Activate the new conda environment via ```conda activate yourRedcliffEnvironment```
  4) Set up your local file structure. The repository assumes you have the following folders in your system - you may change them as needed, but this will require editing numerous scripts (esp. any ending in "\_cached_args.txt" that you wish to run):
     * 
 ```diff 
 - ... (TO-DO: Update Information) ...
 ```
-If you intend on running comparisons between REDCLIFF-S and the supervised causal discovery algorithms from Table 2 [1], then run the preceding steps, but substitute the command in Step 2 with ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025-eval-env.yml```. Please note that we suggest only doing this if necessary, as the dependencies in redcliff-s-icml2025-eval-env.yml are primarily installed via pip, whereas redcliff-s-icml2025.yml places far more emphasis on conda installations.
+If, for whatever reason, the redcliffs-env.yml config file does not work for your local environment, alternative config files have been provided in the alternative_environments folder. We recommend using the redcliff-s-icml2025.yml configuration for training algorithms with classes in the models module. Otherwise, if you intend on running comparisons between REDCLIFF-S and the supervised causal discovery algorithms from Table 2 [1], then run the preceding steps, but substitute the command in Step 2 with ```conda env create --yourRedcliffEnvironment --file=redcliff-s-icml2025-eval-env.yml```. 
 
 ---
 ## Dataset Curration and Preparation :open_file_folder:
